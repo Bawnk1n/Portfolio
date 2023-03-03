@@ -1,0 +1,186 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Tilt Neon', cursive;
+font-family: 'Tilt Prism', cursive; */
+
+/* * {
+    color: white;
+    text-shadow: 2px 2px 2px 2px;
+} */
+
+h1 {
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: .8px;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: .6px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .4px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(221, 177, 119);
+}
+
+nav {
+    position: fixed;
+    border-bottom: 2px solid black;
+    background-color: rgb(243, 215, 175);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin-left: 10px;
+    margin-right: 20px;
+    list-style: none;
+    font-family: 'Tilt Neon', cursive;
+    
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0 40px 0;
+    
+}
+
+#img-profile-pic {
+    max-width: 200px;
+    margin: 50px 50px 30px 80px;
+    border-radius: 30px;
+}
+
+#about-me {
+    margin: 40px 10px 0px 0px;
+    border-bottom: 1px solid white;
+    
+}
+
+#projects {
+    display: flex;
+    flex-direction:column;
+    border-top: solid 1px white;
+    background-color: rgb(243, 215, 175);
+}
+
+#projects div {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#projects h2 {
+    align-self: center;
+}
+
+#word-generator {
+
+    margin: 50px 70px;
+    border: 1px solid black;
+    align-items: center;
+    background-color: rgb(246, 234, 206);
+    height: 20rem;
+    width: 60rem;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+#word-generator h3 {
+    margin-top: 0rem;
+    margin-bottom: 12rem;
+    font-size: 30px;
+    position:absolute;
+}
+
+#word-generator-cover-text {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding: 6rem 2rem;
+    opacity: .95;
+}
+
+#buttons {
+    position: absolute;
+    margin-top: 14rem;
+}
+
+#word-generator button {
+    width: 12rem;
+    margin: 5px;
+}
+#word-generator-button-two {
+    margin-bottom: 1rem;
+    
+}
+
+#word-generator-p {
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 8rem;
+    margin-top: 9rem;
+}
+
+#science-project {
+    width: 64rem;
+    height: 30rem;
+    background-color: rgb(246, 234, 206);
+    border-radius: 15px;
+}
+
+#science-project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#science-project-header p {
+    text-align: center;
+}
