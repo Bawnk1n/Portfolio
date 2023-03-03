@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(221, 177, 119);
+    background-color: #ECECEC;
     position: relative;
     padding: 0;
     margin: 0;
@@ -54,7 +54,7 @@ body {
 nav {
     position: fixed;
     border-bottom: 2px solid black;
-    background-color: rgb(243, 215, 175);
+    background-color: #2F2F2F;
     z-index: 2;
     margin: 0;
     padding: 0;
@@ -63,6 +63,10 @@ nav {
     right: 0;
     top: 0;
     
+}
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
 nav ul {
@@ -85,7 +89,7 @@ header {
     justify-content: space-between; 
     margin: 50px 0 40px 0;
     width: 100%;
-    
+    background-color: #F9F9F9;
 }
 
 #img-profile-pic {
@@ -96,7 +100,7 @@ header {
 
 #about-me {
     margin: 40px 10px 0px 0px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     
 }
 
@@ -104,13 +108,24 @@ header {
     display: flex;
     flex-direction:column;
     border-top: solid 1px white;
-    background-color: rgb(243, 215, 175);
+    background-color: rgb(199, 193, 136);
     
     top: 30rem;
     left: 0rem;
     right: 0rem;
    
     margin: 0;
+}
+
+button {
+    background-color: #2F2F2F;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
 }
 
 /* #projects div {
@@ -123,6 +138,7 @@ header {
 
 #projects h2 {
     align-self: center;
+    margin-top: 4rem;
 }
 
 #word-generator {
@@ -132,7 +148,7 @@ header {
     justify-content: space-around;
 
     margin: 50px 70px;
-    border: 1px solid black;
+    border: 1px groove black;
     align-items: center;
     background-color: rgb(246, 234, 206);
     height: 20rem;
@@ -165,6 +181,7 @@ header {
 #buttons {
     position: absolute;
     margin-top: 14rem;
+
 }
 
 #word-generator button {
@@ -196,13 +213,14 @@ header {
     background-color: rgb(246, 234, 206);
     border-radius: 15px;
     margin-bottom: 5rem;
+    border:groove 1px black;
 }
 
 #science-project-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-top: 2rem;
 }
 #science-project-header p {
     text-align: center;
@@ -212,6 +230,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    align-items: center;
 }
 
 #science-project-functionalities ul {
@@ -222,7 +241,8 @@ header {
 #science-project-functionalities li {
 
     list-style: none;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 3rem;
     position: inherit;
     margin-right: 10rem;
 }
@@ -253,7 +273,7 @@ border:groove 1px black;
     margin-right: 12rem;
     padding: 7rem 2rem;
     opacity: .95;
-    top: 68rem;
+    top: 71rem;
     
     
 }
@@ -262,7 +282,7 @@ footer {
     width: 100%;
     position: absolute;
     border-top: 1px solid black;
-    background-color: darkred;
+    background-color: #2F2F2F;
     color: white;
     bottom: 0;
     height: 3rem;
@@ -279,4 +299,5 @@ footer ul {
 footer li {
     margin: 1rem;
     list-style: none;
+    font-family: 'Source Sans Pro', sans-serif ;
 }
