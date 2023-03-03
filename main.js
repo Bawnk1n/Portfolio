@@ -90,6 +90,8 @@ else if (randomLanguage === 'Czech') {
 // console.log(isWordOrPhrase)
 //console.log(generateString())
 
+//------------------------------------SECTION CHANGE (WEBSITE FUNCTIONALITY)------------------------------
+
 let wordGeneratorParagraph = document.getElementById('word-generator-p');
 let wordGeneratorButton = document.getElementById('word-generator-button');
 
