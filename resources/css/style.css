@@ -301,3 +301,64 @@ footer li {
     list-style: none;
     font-family: 'Source Sans Pro', sans-serif ;
 }
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 860px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-me {
+        text-align: center;
+    }
+    #word-generator {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        align-content:space-around ;
+    }
+    #word-generator h3 {
+        position: static;
+        margin: 0;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+    #buttons {
+        position: static;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    #word-generator-p {
+        margin: 0;
+    }
+    #word-generator-cover-text {
+        width: 100%;
+    }
+    #science-project-cover {
+        width: 100%;
+        top: 115rem;
+    }
+    #science-project {
+        width: 100%;
+        height: auto;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    .footer-disappear {
+        display: none;
+    }
+    #paragraph-div {
+        max-width: auto;
+        margin-left: 0rem;
+
+    }
+    #science-project-functionalities li {
+        margin-right: 4rem;
+    }
+}
